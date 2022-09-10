@@ -1,0 +1,11 @@
+///scrCamera(center_x,center_y,width,angle,view);
+var cx=argument0;
+var cy=argument1;
+var w=argument2;
+var a=argument3;
+var view = argument4;
+view_xview[view]=cx-w/2;
+view_yview[view]=cy-w*608/800/2;
+view_wview[view]=w;
+view_hview[view]=w*608/800;
+view_angle[view]=a;
